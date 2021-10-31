@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[])
+{
+	int a1=3;
+	int a2=5;
+	int a3;
+	int a4;
+	int sum;
+	int average;
+	
+	printf("Enter third number:\n");
+	scanf("%d",&a3);
+	
+	printf("Enter fourth number:\n");
+	scanf("%d",&a4);
+	
+	sum=a1+a2+a3+a4;
+	printf("Sum is:%d\n",sum);
+	
+	average=sum/4;
+	printf("Average is:%d\n",average);
+	
+	
+	return 0;
+}

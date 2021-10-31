@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[])
+{
+	
+int k=2;
+int p=3,
+int r=7;
+double t=2.2;
+double z=1.4;
+double result;
+
+result =((k*p)+(r*t)+7)/z
+
+printf("The result is:%d",result);	
+	
+	return 0;
+}
+

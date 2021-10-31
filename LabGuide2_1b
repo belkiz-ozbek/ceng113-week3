@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+// TODO: Balkýz tamamlayacak.
+int main (void)
+{
+	double a=4.3;
+	double b=9.4;
+	double c;
+	double d;
+	double sum;
+	double average;
+	
+	printf("Enter third number:\n");
+	scanf("%lf",&c);
+	
+	printf("Enter fourth number:\n");
+	scanf("%lf",&d);
+	
+	
+	sum=a+b+c+d;
+	printf("Sum is:%f\n",sum);
+	
+	average=sum/4;
+	printf("Average is:%f\n",average);
+	
+	
+	
+	return 0;
+}
